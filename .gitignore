@@ -1,0 +1,23 @@
+# Ignorer tout sauf .gitkeep
+logs/*
+!logs/.gitkeep
+
+cache/*
+!cache/.gitkeep
+
+tmp/*
+!tmp/.gitkeep
+
+data/*
+!data/.gitkeep
+
+# Python (si tu utilises Python)
+__pycache__/
+*.pyc
+
+# Node (si tu utilises JS)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
