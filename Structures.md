@@ -1,8 +1,8 @@
-🚀 1. Structure complète du projet basé sur .gitkeep
-
-Voici un projet entièrement construit autour de dossiers vides versionnés :
-
-`
+###### Structures.md >> markdown 
+# 🚀 .gitkeep
+>Structure complète du projet basé sur `.gitkeep`
+- Voici un projet entièrement construit autour de dossiers vides versionnés :
+```text
 GitkeepProject/
 ├─ src/
 │  ├─ .gitkeep
@@ -22,9 +22,9 @@ GitkeepProject/
 │  └─ .gitkeep
 ├─ .gitignore
 └─ README.md
-`
+```
 
-Chaque dossier vide existe grâce à .gitkeep.
+>Chaque dossier vide existe grâce à .gitkeep.
 
 ---
 
