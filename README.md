@@ -37,5 +37,22 @@
 - faciliter CI/CD et documentation
 ```
 
-## Licence
-Libre d’utilisation.
+### ▶ Démarrer
+```make
+make run
+```
+
+### 🧪 Tester
+```make
+make test
+```
+
+### 🐳 Docker
+```docker
+docker build -t gitkeep .
+docker run gitkeep
+```
+
+### 📜 Licence
+Apache : Licence
+Libre d’utilisation
