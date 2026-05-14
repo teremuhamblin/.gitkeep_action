@@ -119,12 +119,7 @@ Exemple :
 - Documentation du projet
 - À compléter avec README, guides, API docs
 
-
----
-
 📁 tests/.gitkeep
 - Dossier des tests unitaires et d'intégration
 - Structure prête pour CI/CD
-
-
----
+```
