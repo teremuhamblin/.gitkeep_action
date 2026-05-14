@@ -15,7 +15,7 @@
 - Maintenir une architecture propre dès le début
 
 ### Structure `OPTIONNELLE`
-[![Docs](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
+[![CI](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
 ```md
 - `src/` — Code source
 - `logs/` — Logs runtime
