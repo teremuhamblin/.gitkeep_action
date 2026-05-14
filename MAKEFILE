@@ -1,0 +1,11 @@
+run:
+	python3 src/main.py
+
+test:
+	pytest -q
+
+clean:
+	rm -rf cache/* tmp/*
+
+logs:
+	tail -f logs/app.log
