@@ -1,0 +1,23 @@
+name: Validate Project Structure
+
+on:
+  push:
+    paths:
+      - '**/.gitkeep'
+      - '**/*.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vérifier que les dossiers obligatoires existent
+        run: |
+          required=(src logs data cache tmp docs tests)
+          for d in "${required[@]}"; do
+            if [ ! -d "$d" ]; then
+              echo "::error::$d manquant"
+              exit 1
+            fi
+          done
