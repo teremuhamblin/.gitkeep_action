@@ -53,6 +53,6 @@ docker build -t gitkeep .
 docker run gitkeep
 ```
 
-### 📜 Licence
-Apache : Licence
-Libre d’utilisation
+### 📜 License
+>Apache 2.0 : License
+- Libre d’utilisation
