@@ -2,6 +2,8 @@
 - Projet basé sur .gitkeep
 >Ce projet démontre l'utilisation avancée de `.gitkeep` pour structurer un projet complet, même sans fichiers initiaux.
 
+[![CI](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg?event=workflow_run)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
+
 ### Objectifs
 - Versionner des dossiers vides
 - Préparer la structure d’un projet avant développement
