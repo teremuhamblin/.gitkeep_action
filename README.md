@@ -2,7 +2,11 @@
 - Projet basé sur .gitkeep
 >Ce projet démontre l'utilisation avancée de `.gitkeep` pour structurer un projet complet, même sans fichier
 
+<p align="center">
+  
 [![CI](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/release.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/release.yml)
+[![Security](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/security.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/security.yml)
+</p>
 
 ### Objectifs
 - Versionner des dossiers vides
@@ -11,7 +15,7 @@
 - Maintenir une architecture propre dès le début
 
 ### Structure `OPTIONNELLE`
-[![CI](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
+[![Docs](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
 ```md
 - `src/` — Code source
 - `logs/` — Logs runtime
