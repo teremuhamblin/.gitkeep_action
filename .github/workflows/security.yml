@@ -2,30 +2,9 @@ name: Security Scan
 
 on:
   schedule:
-    - cron: "0 3 * * 1"   # Tous les lundis à 03:00
+    - cron: "0 3 * * 1" # Tous les lundis à 03:00
   workflow_dispatch:
 
 jobs:
-  scan:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # --- SNYK SCAN ---
-      - name: Analyse de sécurité Snyk
-        uses: snyk/actions/python@master
-        continue-on-error: true
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-
-      # --- CODEQL INIT ---
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: python
-
-      # --- CODEQL ANALYZE ---
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+  codeql:
+    uses: github/codeql-action/.github/workflows/codeql.yml@v3
