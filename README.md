@@ -84,3 +84,29 @@ docker run gitkeep
 <img src="https://img.shields.io/badge/Compliance-OK-success?style=for-the-badge&logo=checkmarx" />
 
 ---
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project_Status-Active-success?style=for-the-badge&logo=github" />
+</p>
+
+<p align="center">
+  <sub>
+    Développé avec ❤️ par <strong>Teremu</strong> • Projet <strong>gitkeep_action</strong><br/>
+    Automatisation avancée, workflows CI/CD, qualité entreprise.
+  </sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/Teremu/gitkeep_action?style=flat-square" />
+</p>
+
+<p align="center">
+  <sub>
+    © 2026 — Tous droits réservés.  
+    Ce projet est distribué sous licence Apache 2.0
+  </sub>
+</p>
+
+---
