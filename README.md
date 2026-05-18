@@ -1,3 +1,4 @@
+###### README.md >> markdown 
 # .gitkeep_action
 - Projet basé sur .gitkeep
 >Ce projet démontre l'utilisation avancée de `.gitkeep` pour structurer un projet complet, même sans fichier
@@ -53,4 +54,36 @@ docker run gitkeep
 
 ### 📜 License
 >Apache 2.0 : License
-- Libre d’utilisation
+- Libre d’utilisation---
+
+<p align="center">
+
+  <!-- Version -->
+  <img src="https://img.shields.io/github/v/tag/Teremu/.gitkeep_action?label=Version&color=blueviolet&style=for-the-badge" />
+
+  <!-- CI -->
+  <img src="https://img.shields.io/github/actions/workflow/status/Teremu/.gitkeep_action/ci.yml?label=CI&style=for-the-badge&logo=github" />
+
+  <!-- Node -->
+  <img src="https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+
+  <!-- License -->
+  <img src="https://img.shields.io/github/license/Teremu/.gitkeep_action?style=for-the-badge&color=yellow" />
+
+  <!-- Issues -->
+  <img src="https://img.shields.io/github/issues/Teremu/.gitkeep_action?style=for-the-badge&color=orange" />
+
+  <!-- PR -->
+  <img src="https://img.shields.io/github/issues-pr/Teremu/.gitkeep_action?style=for-the-badge&color=brightgreen" />
+
+  <!-- Commits -->
+  <img src="https://img.shields.io/github/commit-activity/m/Teremu/.gitkeep_action?style=for-the-badge&color=blue" />
+
+  <!-- Repo Size -->
+  <img src="https://img.shields.io/github/repo-size/Teremu/.gitkeep_action?style=for-the-badge&color=9cf" />
+
+</p>
+
+---
+
+
