@@ -56,7 +56,7 @@ docker run gitkeep
 >Apache 2.0 : License
 - Libre d’utilisation---
 
-<p align="center">
+<p align="left">
 
   <!-- Version -->
   <img src="https://img.shields.io/github/v/tag/Teremu/.gitkeep_action?label=Version&color=blueviolet&style=for-the-badge" />
