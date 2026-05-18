@@ -7,10 +7,16 @@ on:
 
 jobs:
   release:
+    name: Create GitHub Release
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate Release Notes
         uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
